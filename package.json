@@ -18,6 +18,7 @@
     "build": "rimraf dist && tsc",
     "version": "npm run build",
     "postversion": "git push && git push --tags",
+    "install": "npm run build",
     "test": "jest"
   },
   "dependencies": {
